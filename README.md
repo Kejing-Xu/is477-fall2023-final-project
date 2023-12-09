@@ -1,4 +1,5 @@
 # is477-fall2023-final-project
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10314383.svg)](https://doi.org/10.5281/zenodo.10314383)  
 Final Project for IS477
 ## Overview
 Iris is one of the earliest datasets used for evaluating classification methods. The dataset has widely been used in statistics and machine learning.  
