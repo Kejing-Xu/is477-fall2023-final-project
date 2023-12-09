@@ -1,0 +1,29 @@
+Building DAG of jobs...
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job        count
+-------  -------
+analyze        1
+total          1
+
+Select jobs to execute...
+
+[Fri Dec  8 18:54:22 2023]
+rule analyze:
+    output: results
+    jobid: 0
+    reason: Missing output files: results
+    resources: tmpdir=C:\Users\浙二医院\AppData\Local\Temp
+
+ImproperOutputException in rule analyze in file E:\FA23\IS 477\is477-fall2023-final-project\Snakefile, line 13:
+Outputs of incorrect type (directories when expecting files or vice versa). Output directories must be flagged with directory(). for rule analyze:
+    output: results
+    affected files:
+        results
+Removing output files of failed job analyze since they might be corrupted:
+results
+[WinError 145] 目录不是空的。: 'results'
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake\log\2023-12-08T185422.861862.snakemake.log

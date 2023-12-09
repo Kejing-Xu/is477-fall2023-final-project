@@ -1,0 +1,21 @@
+{
+    "title": "Iris",
+    "description": "Final Project of IS477",
+    "creators": [
+    {
+    "name": "Xu, Kejing",
+    "orcid": "0009-0006-5135-1902"
+    }
+    ],
+    "related_identifiers": [
+    {
+    "scheme": "doi",
+    "identifier": "https://doi.org/10.0000/00000",
+    "relation": "cites"
+    }
+    ],
+    "access_right": "open",
+    "upload_type": "software",
+    "license": "MIT"
+    }
+    

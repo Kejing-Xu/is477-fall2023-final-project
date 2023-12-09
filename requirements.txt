@@ -1,0 +1,5 @@
+requests
+ydata-profiling
+snakemake
+pandas
+matplotlib
